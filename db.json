@@ -1,0 +1,8 @@
+{
+  "users":[
+    {"id":"101","firstName":"Sany","age":26},
+    {"id":"102","firstName":"Mahadi","age":26},
+    {"id":"103","firstName":"Mongo","age":26},
+    {"id":"104","firstName":"Graphql","age":26}
+  ]
+}
