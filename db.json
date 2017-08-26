@@ -1,8 +1,13 @@
 {
   "users":[
-    {"id":"101","firstName":"Sany","age":26},
-    {"id":"102","firstName":"Mahadi","age":26},
-    {"id":"103","firstName":"Mongo","age":26},
-    {"id":"104","firstName":"Graphql","age":26}
+    {"id":"101","firstName":"Sany","age":26, "companyId":"201"},
+    {"id":"102","firstName":"Mahadi","age":26, "companyId":"201"},
+    {"id":"103","firstName":"Mongo","age":26, "companyId":"401"},
+    {"id":"104","firstName":"Graphql","age":26, "companyId":"301"}
+  ],
+  "companies":[
+    {"id":"201","description":"Apple Inc, mountain view, california","name":"Apple"},
+    {"id":"301","description":"Google Inc, mountain view, california","name":"Google"},
+    {"id":"401","description":"Microsoft Inc, mountain view, california","name":"Microsoft"}
   ]
 }
