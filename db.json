@@ -46,6 +46,16 @@
       "id": "401",
       "description": "Microsoft Inc, mountain view, california",
       "name": "Microsoft"
+    },
+    {
+      "name": "W3Engineers Ltd.",
+      "description": "A software company in Khulna, Bangladesh",
+      "id": "rk3OnzltW"
+    },
+    {
+      "id": "HJQa3MeF-",
+      "name": "Telenor Bangladesh Ltd.",
+      "description": "A software company in Dhaka, Bangladesh"
     }
   ]
 }
