@@ -1,6 +1,6 @@
 # Creating a GraphQL API
 
-**Clone it** : [Project Repo](https://github.com/sany2k8/graphql-udemy.git)
+**Clone it** : `git clone https://github.com/sany2k8/graphql-udemy.git` or download zip.
 
 **Download dependency** :  `npm install`
 
