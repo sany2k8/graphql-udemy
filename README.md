@@ -12,31 +12,38 @@
 
 **Example Queries:**
 
+** Specific user with company**
 ```
-    {
-    user(id:"103"){
+{
+  user(id: "103") {
+    firstName
+    age
+    company {
+      name
+      description
+    }
+  }
+}
+
+```
+
+
+** Specific company with user **
+
+```
+{
+  company(id: "201") {
+    name
+    users {
       firstName
       age
-      company{
-        name
-        description
-      }
-     }
     }
-```
-
+  }
+}
 
 ```
-     { 
-      company(id:"201"){
-        name
-        users {
-        firstName
-        age
-        }
-      }
-    }
-```
+
+**With Alias**
 
 ```
 {
