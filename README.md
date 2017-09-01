@@ -12,7 +12,8 @@
 
 **Example Queries:**
 
-** Specific user with company**
+**Specific user with company**
+
 ```
 {
   user(id: "103") {
@@ -28,7 +29,7 @@
 ```
 
 
-** Specific company with user **
+**Specific company with user *
 
 ```
 {
