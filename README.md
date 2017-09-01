@@ -12,7 +12,7 @@
 
 **Example Queries:**
 
-**Specific user with company**
+**Specific user with company info**
 
 ```
 {
@@ -29,7 +29,7 @@
 ```
 
 
-**Specific company with user *
+**Specific company with user info*
 
 ```
 {
@@ -44,7 +44,7 @@
 
 ```
 
-**With Alias**
+**Alias**
 
 ```
 {
@@ -67,5 +67,27 @@
 }
 
 ```
+**Fragment**
+
+```
+query FetchUserWithFragment {
+  Sany: user(id: "103") {
+     ...UserFragment
+  }
+  Mahadi: user(id: "102") {
+    ...UserFragment
+  }
+}
+
+fragment UserFragment on User{
+    firstName
+    age
+    company {
+      name
+      description
+    }
+}
+```
+
 
 
