@@ -10,4 +10,31 @@
 
 **Play at Live** :  https://graphql-sany2k8.c9users.io/graphql
 
+**Example Queries:**
+
+```
+    {
+    user(id:"103"){
+      firstName
+      age
+      company{
+        name
+        description
+      }
+    }
+    }
+```
+
+
+```
+      company(id:"201"){
+        name
+        users {
+        firstName
+        age
+        }
+      }
+    }
+```
+
 
