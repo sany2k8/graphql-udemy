@@ -29,7 +29,7 @@
 ```
 
 
-**Specific company with user info*
+**Specific company with user info**
 
 ```
 {
