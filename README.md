@@ -1,6 +1,6 @@
 # Creating a GraphQL API
 
-**Clone it** : https://github.com/sany2k8/graphql-udemy.git
+**Clone it** : [Project] (https://github.com/sany2k8/graphql-udemy.git)
 
 **Download dependency** :  `npm install`
 
@@ -8,7 +8,7 @@
 
 **Start GraphQL** : `npm start`
 
-**Play at Live** :  https://graphql-sany2k8.c9users.io/graphql
+**Play at Live** :  [Live Demo](https://graphql-sany2k8.c9users.io/graphql)
 
 **Example Queries:**
 
@@ -72,21 +72,22 @@
 ```
 query FetchUserWithFragment {
   Sany: user(id: "103") {
-     ...UserFragment
+    ...UserFragment
   }
   Mahadi: user(id: "102") {
     ...UserFragment
   }
 }
 
-fragment UserFragment on User{
-    firstName
-    age
-    company {
-      name
-      description
-    }
+fragment UserFragment on User {
+  firstName
+  age
+  company {
+    name
+    description
+  }
 }
+
 ```
 
 
