@@ -21,12 +21,13 @@
         name
         description
       }
-    }
+     }
     }
 ```
 
 
 ```
+     { 
       company(id:"201"){
         name
         users {
@@ -35,6 +36,28 @@
         }
       }
     }
+```
+
+```
+{
+  usr1: user(id: "103") {
+    firstName
+    age
+    company {
+      name
+      description
+    }
+  }
+  usr2: user(id: "102") {
+    firstName
+    age
+    company {
+      name
+      description
+    }
+  }
+}
+
 ```
 
 
