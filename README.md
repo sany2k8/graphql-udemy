@@ -4,9 +4,11 @@
 
 **Download dependency** :  `npm install`
 
-**Start Json Server** : `npm run json:server`
+**Start JSON Server** : `npm run json:server`
 
 **Start GraphQL** : `npm start`
+
+N.B: You need to start JSON server first then Graphql because GraphQL access json data from JSON server.
 
 **Play at Live** :  [Live Demo](https://graphql-sany2k8.c9users.io/graphql)
 
